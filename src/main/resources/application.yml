@@ -25,3 +25,14 @@ spring:
     init:
       mode: always
       data-locations: classpath:data.sql
+
+  # ??? ?? ?? ??
+  messages:
+    basename: errors
+
+logging:
+  level:
+    root: INFO
+    org:
+      hibernate: Info
+      springframework: Info
